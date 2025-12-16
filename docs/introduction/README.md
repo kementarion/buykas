@@ -171,14 +171,17 @@ Kaspa 这个名字，来源于阿拉米语，是"银"和"钱"的意思。
 
 :::
 
-- [https://kas.fyi/](https://kas.fyi/)
-
 - [https://kaspa.stream/](https://kaspa.stream/)
 
 - [https://explorer.kaspa.org/](https://explorer.kaspa.org/)
 
 - [https://www.kaspalytics.com/](https://www.kaspalytics.com/)
 
+- [https://kaspa-lens.com/](https://kaspa-lens.com/)
+
+- [https://kas.fyi/](https://kas.fyi/)
+
+    * 已于 2025-12-14 关闭
 
 ### (6). 官方知识问答网站
 

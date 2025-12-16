@@ -249,14 +249,40 @@ Yonatan 偶然透露出他的生日是 4 月 5 号。巧合的是，创立比特
     * 加密行业资深 Hacker。参与 Kaspa 核心团队工作。受 KEF 资助。
 
 
+### (5). @IzioDev
 
-### (5). Shai Wyborski
+- [https://x.com/IzioDev](https://x.com/IzioDev)
+
+    * 2025-12-15 开始，受 KEF 资助一年，专注于 Kaspa 核心方面工作。
+
+    * 去中心化的聊天工具 - Kaisa： [https://kasia.fyi/](https://kasia.fyi/)
+
+    * 相关采访：[https://x.com/xximpod/status/1945101933343351262](https://x.com/xximpod/status/1945101933343351262)
+
+::: info Kaspa_KEF:
+
+欢迎加入， @IzioDev💚
+
+@IzioDev是一位经验丰富的开发人员，在 Web 开发、基础设施和分布式系统方面拥有 15 年以上的经验；他通过维护 @kasiamessaging
+和改进 Rusty Kaspa 网络，已经成为#Kaspa社区的宝贵财富。
+
+🎁 他作为主网核心开发者的第一份礼物？完成了 Pull-Request 740 的合并（也称为 VSPCv2，由 D-stacks 上周初始化！）
+
+此次升级允许通过单个 RPC 调用返回完整的事务数据。现在无需复杂的流程即可轻松访问 UTXO 数据，而过去需要多次 RPC 调用和自定义本地逻辑才能将数据“连接”在一起。
+
+- [https://x.com/Kaspa_KEF/status/2000509077819171064](https://x.com/Kaspa_KEF/status/2000509077819171064)
+
+- [https://x.com/IzioDev/status/2000490683598004383](https://x.com/IzioDev/status/2000490683598004383)
+
+:::
+
+### Shai Wyborski
 
 - 曾经参于核心工作，GHOSTDAG 论文的合著者。
 
 - 参于了早期项目启动工作，并做了大量的社区知识普及工作。
 
-- **后来退出核心团队。**
+- **后来不再参于核心团队工作。再后来因为一些事件退出 Kaspa 社区。**
   
 - [https://x.com/DesheShai](https://x.com/DesheShai)
 
@@ -271,17 +297,12 @@ Yonatan 偶然透露出他的生日是 4 月 5 号。巧合的是，创立比特
 
 - [https://x.com/kaspador_](https://x.com/kaspador_)
 
-    * 参与创建了 [kas.fyi](https://kas.fyi/), kasplex, kasware, 等
+    * [kasbay.org](https://kasbay.org/), kasplex, kasware, 等
 
 - [https://x.com/supertypo_kas](https://x.com/supertypo_kas)
 
     * 区块浏览器： [https://kaspa.stream/](https://kaspa.stream/)
 
-- [https://x.com/IzioDev](https://x.com/IzioDev)
-
-    * 去中心化的聊天工具 - Kaisa： [https://kasia.fyi/](https://kasia.fyi/)
-
-    * 相关采访：[https://x.com/xximpod/status/1945101933343351262](https://x.com/xximpod/status/1945101933343351262)
 
 
 
