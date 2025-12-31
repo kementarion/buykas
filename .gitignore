@@ -14,5 +14,7 @@ docs/.vuepress/dist
 
 dist.tar.gz
 
+build*.sh
+
 
 

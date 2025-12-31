@@ -244,16 +244,32 @@ Kaspa 这个名字，来源于阿拉米语，是"银"和"钱"的意思。
 
 #### [1]. 去中心化的聊天工具 Kasia
 
-- 每一条聊天消息，都是一条加密的交易（费用非常低，约 0.0002 KAS）。**理论上完全不可能被监听。**
+- 每一条聊天消息，都是一条加密的交易。理论上完全不可能被监听。
 
 - 官网：[https://kasia.fyi/](https://kasia.fyi/)
 
 - 推特：[https://x.com/kasiamessaging](https://x.com/kasiamessaging)
 
 
+
 #### [2]. KNS 域名 (yourdomain.kas)
 
 - 官网：[https://app.knsdomains.org/](https://app.knsdomains.org/)
+
+
+#### [3]. K 社交网络 (k-social.network)
+
+- [https://k-social.network/](https://k-social.network/) 
+
+- 一个类似于微博、推特的社交网络。
+
+
+#### [4]. 去中心化群聊 kaspeak
+
+- [https://kaspeak.net/](https://kaspeak.net/)
+
+
+
 
 
 

@@ -13,7 +13,7 @@ heroText: " "
 
 我的推特：[https://x.com/mvkscin](https://x.com/mvkscin)
 
-本站文档及源代码：[https://github.com/kementarion/freekas](https://github.com/kementarion/freekas)
+本站文档及源代码：[https://github.com/kementarion/buykas](https://github.com/kementarion/buykas)
 
 
 <br />
