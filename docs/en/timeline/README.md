@@ -13,6 +13,8 @@
 
 * [Kaspa Timeline: 2025](./2025.md)
 
+* [Kaspa Timeline: 2026](./2026.md)
+
 
 
 

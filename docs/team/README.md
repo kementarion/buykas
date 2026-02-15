@@ -42,7 +42,7 @@ Yonatan Sompolinsky 是一位非常资深的区块链研究员和密码学专家
 
 ::: tip
 
-**Yonatan 早年创建的 GHOST 协议被多个著名项目所使用。**
+**Yonatan 早年创建的 GHOST 协议被多个著名项目（包括以太坊 ETH）所使用。**
 
 :::
 
@@ -287,7 +287,29 @@ Yonatan 偶然透露出他的生日是 4 月 5 号。巧合的是，创立比特
 - [https://x.com/DesheShai](https://x.com/DesheShai)
 
 
-## 5. Kaspa 建设者（Builders）
+
+## 5. KEF 基金会 
+
+KEF 基金会赞助了 Kaspa 很多核心开发的工作，并对 Kaspa 的发展做了很多贡献。
+
+
+- 官网：
+
+    - [https://www.kaspafoundation.org/](https://www.kaspafoundation.org/#/)
+
+    - 查看当前和曾经赞助过的人、项目：[https://www.kaspafoundation.org/#/projects](https://www.kaspafoundation.org/#/projects)
+
+
+- 相关负责人：
+
+    - [https://x.com/oneforonehaha](https://x.com/oneforonehaha)
+
+    - [https://x.com/evie_Y2001](https://x.com/evie_Y2001)
+
+
+
+
+## 6. Kaspa 建设者（Builders）
 
 ::: info
 
@@ -302,8 +324,5 @@ Yonatan 偶然透露出他的生日是 4 月 5 号。巧合的是，创立比特
 - [https://x.com/supertypo_kas](https://x.com/supertypo_kas)
 
     * 区块浏览器： [https://kaspa.stream/](https://kaspa.stream/)
-
-
-
 
 

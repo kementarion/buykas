@@ -43,7 +43,7 @@ Reference: [https://iq.wiki/zh/wiki/yonatan-sompolonsky](https://iq.wiki/zh/wiki
 
 ::: tip
 
-**The GHOST protocol created by Yonatan in his early years is used by several famous projects.**
+**The GHOST protocol created by Yonatan in his early years is used by several famous projects (including Ethereum ETH).**
 
 :::
 
@@ -286,7 +286,28 @@ This upgrade allows complete transaction data to be returned through a single RP
 - [https://x.com/DesheShai](https://x.com/DesheShai)
 
 
-## 5. Kaspa Builders
+## 5. KEF Foundation
+
+The KEF Foundation has sponsored much of Kaspa's core development work and has made many contributions to Kaspa's development.
+
+
+- Official website:
+
+    - [https://www.kaspafoundation.org/](https://www.kaspafoundation.org/#/)
+
+    - View current and previously sponsored people and projects: [https://www.kaspafoundation.org/#/projects](https://www.kaspafoundation.org/#/projects)
+
+
+- Relevant person in charge:
+
+    - [https://x.com/oneforonehaha](https://x.com/oneforonehaha)
+
+    - [https://x.com/evie_Y2001](https://x.com/evie_Y2001)
+
+
+
+
+## 6. Kaspa Builders
 
 ::: info
 

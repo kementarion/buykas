@@ -37,7 +37,7 @@ heroText: "Kaspa：比特币的真正继承者"
 
 ::: tip 信息
 
-Kaspa 的创始人 Yonatan Sompolinsky 是加密行业非常资深的研究人员。详细介绍：[创始人和理论奠基人 - Yonatan Sompolinsky](./team/#_1-创始人和理论奠基人-yonatan-sompolinsky)
+Kaspa 的创始人 Yonatan Sompolinsky 是加密领域资深专家，是最早发表比特币相关的安全论文的专家之一。详细介绍：[创始人和理论奠基人 - Yonatan Sompolinsky](./team/#_1-创始人和理论奠基人-yonatan-sompolinsky)
 
 :::
 
@@ -94,7 +94,7 @@ Kaspa 的创始人 Yonatan Sompolinsky 是加密行业非常资深的研究人�
 
 ### **6. Kaspa 致力于解决 PoW 区块奖励消失后的矿工收益问题**
 
-- 借助 vProg 协议，L2 的发展将直接强化 L1 网络，L2 的繁荣将提升矿工收益。
+- 借助 vProg 协议，生态的发展将直接强化 L1 网络并提升矿工收益。
 
 - 未来，矿工可依靠交易手续费维持网络长久、安全地运行，实现 PoW 的长期可持续性。详见：[未来矿工收益问题讨论](./topic/1.Fee.md)
 

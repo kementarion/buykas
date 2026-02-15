@@ -96,6 +96,7 @@ export default defineUserConfig({
               children: [
                 '2021-2024.md',
                 '2025.md',
+                '2026.md',
               ]
             }
           ],
@@ -213,6 +214,7 @@ export default defineUserConfig({
               children: [
                 '2021-2024.md',
                 '2025.md',
+                '2026.md',
               ]
             }
           ],

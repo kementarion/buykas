@@ -9,6 +9,8 @@ heroText: " "
 
 在文档整理的过程中，我会尽量保持严谨和客观，并保留信息来源。如果发现错误，敬请批评指出。
 
+英文版是由 AI 根据中文版自动生成。
+
 <br />
 
 我的推特：[https://x.com/mvkscin](https://x.com/mvkscin)
