@@ -96,7 +96,7 @@ Kaspa's founder Yonatan Sompolinsky is a very senior researcher in the crypto in
 
 - Through the vProg protocol, L2 development will directly strengthen the L1 network, and L2 prosperity will increase miner revenue.
 
-- In the future, miners can rely on transaction fees to maintain long-term, secure network operation, achieving long-term sustainability of PoW. See details: [Discussion on Future Miner Revenue Issues](./topic/Fee.md)
+- In the future, miners can rely on transaction fees to maintain long-term, secure network operation, achieving long-term sustainability of PoW. See details: [Discussion on Future Miner Revenue Issues](./topic/1.Fee.md)
 
 
 ### **7. Summary**
