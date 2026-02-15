@@ -11,11 +11,11 @@ export default defineUserConfig({
       title: 'Kaspa 百科文档',
       description: ' ',
     },
-    // '/en/': {
-    //   lang: 'en-US',
-    //   title: 'Kaspa Knowledge Base',
-    //   description: ' ',
-    // }
+    '/en/': {
+      lang: 'en-US',
+      title: 'Kaspa Documentation',
+      description: ' ',
+    }
   },
 
   
@@ -159,39 +159,120 @@ export default defineUserConfig({
 
 
 
-      // '/en/': {
-      //   selectLanguageName: 'English',
-      //   selectLanguageText: '切换语言',
-      //   lastUpdatedText: 'Last Update',
-      //   navbar: [
-      //     {
-      //       text: 'Home',
-      //       link: '/en/'
-      //     },
-      //     {
-      //       text: 'Q&A',
-      //       link: '/en/qa/'
-      //     },
-      //   ],
+      '/en/': {
+        selectLanguageName: 'English',
+        selectLanguageText: 'Language',
+        lastUpdatedText: 'Last Update',
+        navbar: [
+          {
+            text: 'Home',
+            link: '/en/'
+          },
+          {
+            text: 'Introduction',
+            link: '/en/introduction/'
+          },
+          {
+            text: 'Research',
+            link: '/en/research/'
+          },
+          {
+            text: 'Team',
+            link: '/en/team/'
+          },
+          {
+            text: 'Timeline',
+            link: '/en/timeline/'
+          },
+          {
+            text: 'Topics',
+            link: '/en/topic/'
+          },
+          {
+            text: 'Crypto',
+            link: '/en/crypto/'
+          },
+          {
+            text: 'About',
+            link: '/en/about/'
+          }
+        ],
 
-      //   sidebar: {
+        sidebar: {
 
-      //     '/en/': [
-      //       {
-      //         children: [
-      //         ]
-      //       }
-      //     ],
+          '/en/introduction/': [
+            {
+              children: [
+                'README.md',
+              ]
+            }
+          ],
 
-      //     '/en/qa/': [
-      //       {
-      //         children: [
-      //           'TrxInBlock_EN.md',
-      //         ]
-      //       }
-      //     ],
-      //   },
-      // },
+          '/en/timeline/': [
+            {
+              children: [
+                '2021-2024.md',
+                '2025.md',
+              ]
+            }
+          ],
+
+          '/en/research/': [
+            {
+              children: [
+                'README.md',
+              ]
+            }
+          ],
+
+          '/en/team/': [
+            {
+              children: [
+                'README.md',
+              ]
+            }
+          ],
+
+          '/en/topic/': [
+            {
+              children: [
+                '1.Fee.md',
+                '2.OldTrxHistory.md',
+                '3.TrxInBlock.md',
+                '4.OriNewmanInterviewByXXIM.md',
+              ]
+            }
+          ],
+          '/en/resource/': [
+            {
+              children: [
+                'README.md'
+              ]
+            }
+          ],
+
+          '/en/crypto/': [
+            {
+              children: [
+                'Basic-Knowledge.md',
+                'PoW-PoS.md',
+                'The-BlockChain-Trilemma.md',
+                'Node-And-Miner.md',
+                'BTC.md',
+                'ETH.md',
+              ]
+            }
+          ],
+
+
+          '/en/about/': [
+            {
+              children: [
+              ]
+            }
+          ]
+        }
+      },
 
 
     },

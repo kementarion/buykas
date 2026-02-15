@@ -1,0 +1,36 @@
+---
+home: true
+heroText: " "
+---
+
+<br />
+
+This website was created during my process of learning about Kaspa, with the hope of providing help to all friends who are willing to understand Kaspa.
+
+In the process of organizing the documentation, I will strive to maintain rigor and objectivity, and preserve information sources. If you find any errors, please feel free to criticize and point them out.
+
+<br />
+
+My Twitter: [https://x.com/mvkscin](https://x.com/mvkscin)
+
+Documentation and source code for this site: [https://github.com/kementarion/buykas](https://github.com/kementarion/buykas)
+
+
+<br />
+
+
+
+<br />
+
+<br />
+
+
+
+
+<br />
+
+
+
+<br />
+
+<br />
