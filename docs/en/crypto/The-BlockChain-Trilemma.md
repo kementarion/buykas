@@ -101,7 +101,7 @@ Bitcoin, Ethereum, and Solana have chosen different development paths and techni
 
 - TPS was maintained above two thousand for a long time, completing a total of 158 million transactions. The mainnet ran stably, and transfers had no delay.
 
-- Details: [2025-10-05 Mainnet Stress Test](/timeline/2025.html#_2025-10-05-主网压力测试), in terms of performance, has already exceeded Solana ecosystem's highest daily transaction volume.
+- Details: [2025-10-05 Mainnet Stress Test](/timeline/2025.html#2025-10-05-mainnet-stress-test), in terms of performance, has already exceeded Solana ecosystem's highest daily transaction volume.
 
 
 ::: tip

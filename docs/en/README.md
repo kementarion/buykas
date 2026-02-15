@@ -16,7 +16,7 @@ heroText: "Kaspa: The True Successor of Bitcoin"
 
 - Solana sacrificed **decentralization** in pursuit of high throughput (adopting PoS + PoH mechanism). Moreover, system stability is insufficient, with multiple outages occurring.
 
-  * For details, see: [Solana Outage After Trump Token Launch](/en/crypto/The-BlockChain-Trilemma.html#_2-solana-在日交易量几千万级时宕机)
+  * For details, see: [Solana Outage After Trump Token Launch](/en/crypto/The-BlockChain-Trilemma.html#(2)-solana-goes-down-when-daily-transaction-volume-is-in-the-tens-of-millions)
 
 
 ::: tip Tip
@@ -63,14 +63,14 @@ Kaspa's founder Yonatan Sompolinsky is a very senior researcher in the crypto in
 
   * **Based on DAG protocol**, it achieves **scalability** that surpasses Solana.
 
-  * In-depth analysis: [Kaspa Solves the Blockchain Trilemma](/en/crypto/The-BlockChain-Trilemma.html#四、kaspa-解决了区块链三难问题)
+  * In-depth analysis: [Kaspa Solves the Blockchain Trilemma](/en/crypto/The-BlockChain-Trilemma.html#iv-kaspa-solves-the-blockchain-trilemma)
 
 
 ### **4. Kaspa Now Supports Layer 2 Smart Contracts**
 
 - In September 2025, the Kasplex smart contract platform officially launched.
 
-  * Details: [2025-09-26 Kasplex Smart Contract Launch](/en/timeline/2025.html#_2025-09-26-kasplex-智能合约上线)
+  * Details: [2025-09-26 Kasplex Smart Contract Launch](/en/timeline/2025.html#2025-09-26-kasplex-smart-contract-launch)
 
   * View current smart contract projects: [https://kas.fyi/l2-networks](https://kas.fyi/l2-networks)
 
@@ -87,7 +87,7 @@ Kaspa's founder Yonatan Sompolinsky is a very senior researcher in the crypto in
 
 - Based on the vProg protocol, users can deploy smart contracts directly without relying on **traditional** Layer 2 platforms.
 
-  * See details: [2025-09-11 vProg Protocol Whitepaper Release](/en/timeline/2025.html#_2025-09-11-vprog-协议黄皮书发布)
+  * See details: [2025-09-11 vProg Protocol Whitepaper Release](/en/timeline/2025.html#2025-09-11-vprog-protocol-yellow-paper-released)
 
   * Or refer to Yonatan's post: [https://x.com/hashdag/status/1972416836110340509](https://x.com/hashdag/status/1972416836110340509)
 
