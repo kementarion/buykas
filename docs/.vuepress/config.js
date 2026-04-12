@@ -8,12 +8,12 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Kaspa 百科文档',
+      title: 'Kaspa 笔记',
       description: ' ',
     },
     '/en/': {
       lang: 'en-US',
-      title: 'Kaspa Documentation',
+      title: 'Kaspa Notes',
       description: ' ',
     }
   },

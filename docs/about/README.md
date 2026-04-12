@@ -5,15 +5,17 @@ heroText: " "
 
 <br />
 
-这个网站是我在学习 Kapsa 相关知识的过程中创建的，希望能给所有愿意了解 Kaspa 的朋友带来帮助。
+学 Kaspa 的时候顺手做了这个站，把学到的东西整理一下，也能给后来的人省点时间。
 
-在文档整理的过程中，我会尽量保持严谨和客观，并保留信息来源。如果发现错误，敬请批评指出。
+内容上我会尽量靠谱，有出处的地方都标上。要是发现哪写错了，麻烦跟我说。
 
-英文版是由 AI 根据中文版自动生成。
+英文版是 AI 翻的，将就能看。
+
+域名 buykas.com 看着挺顺眼就注册了，跟买卖币没啥关系，就是个放笔记的地方。
 
 <br />
 
-我的推特：[https://x.com/mvkscin](https://x.com/mvkscin)
+我的推特：[https://x.com/kementarion](https://x.com/kementarion)
 
 本站文档及源代码：[https://github.com/kementarion/buykas](https://github.com/kementarion/buykas)
 
