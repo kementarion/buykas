@@ -197,11 +197,14 @@ You can view daily transaction volumes, transaction fees, address status, and mo
 
 ### (7). Wallets
 
-::: warning
+::: info Wallet introduction and recommendations on the official website (kaspa.org)
 
-Please research and evaluate on your own. **Pay attention to security and watch out for phishing websites.**
+- English: [https://kaspa.org/hodl#wallet](https://kaspa.org/hodl#wallet)
+
+- Chinese: [https://kaspa.org/zh-CN/hodl#wallet](https://kaspa.org/zh-CN/hodl#wallet)
 
 :::
+
 
 #### [1]. Mobile Wallets
 
@@ -238,6 +241,12 @@ Please research and evaluate on your own. **Pay attention to security and watch 
 
   * Supported by the KEF Foundation
 
+
+::: warning
+
+Please research and evaluate on your own. **Pay attention to security and watch out for phishing websites.**
+
+:::
 
 ### (8). Community Application Projects
 

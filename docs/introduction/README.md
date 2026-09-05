@@ -197,11 +197,14 @@ Kaspa 这个名字，来源于阿拉米语，是"银"和"钱"的意思。
 
 ### (7). 钱包
 
-::: warning
+::: info 官方网站 (kaspa.org) 上的 wallet 介绍与推荐
 
-请自行研究、分辨。**注意安全，注意钓鱼网站。**
+- 英文: [https://kaspa.org/hodl#wallet](https://kaspa.org/hodl#wallet)
+
+- 中文: [https://kaspa.org/zh-CN/hodl#wallet](https://kaspa.org/zh-CN/hodl#wallet)
 
 :::
+
 
 #### [1]. 手机钱包
 
@@ -238,6 +241,12 @@ Kaspa 这个名字，来源于阿拉米语，是"银"和"钱"的意思。
 
   * KEF 基金会支持开发的
 
+
+::: warning
+
+请自行研究、分辨。**注意安全，注意钓鱼网站。**
+
+:::
 
 ### (8). 社区应用项目
 
