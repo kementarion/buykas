@@ -5,13 +5,13 @@ heroText: " "
 
 <br />
 
-I built this site while learning about Kaspa, to record all the important Kaspa-related information. I hope it helps those just getting started with Kaspa.
+I built this site while researching and learning about Kaspa, to record all kinds of Kaspa-related information and resources.
 
-I try to keep things accurate and cite sources where I can. If you spot an error, let me know.
+I try to keep things rigorous, objective, and cite sources where I can. If you spot an error, please point it out.
 
-English version is AI-translated, so it's "good enough".
+English version is AI-translated from the Chinese version.
 
-Registered buykas.com because it looked nice at the time — it has nothing to do with buying or selling $KAS.
+Registered buykas.com because it looked nice at the time — it has nothing to do with buying or selling $KAS. It's just a site of research notes for investing.
 
 
 <br />

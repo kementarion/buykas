@@ -8,7 +8,7 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Kaspa 笔记',
+      title: 'Kaspa 投研笔记',
       description: ' ',
     },
     '/en/': {
