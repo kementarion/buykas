@@ -12,7 +12,7 @@ heroText: "Kaspa: The True Successor of Bitcoin"
 
 - Ethereum ushered in the era of smart contracts, but **eventually shifted to PoS due to PoW performance bottlenecks**.
 
-  * Even after shifting to PoS, Ethereum remains slow (transactions take tens of seconds to minutes), and fees are expensive.
+  * Even after shifting to PoS, Ethereum's speed and fees remain unsatisfactory.
 
 - Solana sacrificed **decentralization** in pursuit of high throughput (adopting PoS + PoH mechanism). Moreover, system stability is insufficient, with multiple outages occurring.
 
