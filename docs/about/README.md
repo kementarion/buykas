@@ -17,13 +17,12 @@ heroText: " "
 
 我的推特：[https://x.com/mvkscin](https://x.com/mvkscin)
 
+我的工具：[https://kastool.com/](https://kastool.com/)
+
 本站文档及源代码：[https://github.com/kementarion/buykas](https://github.com/kementarion/buykas)
 
-
 <br />
 
-
-<br />
 
 <br />
 

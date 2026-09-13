@@ -46,11 +46,24 @@ Fair launch. No reserved tokens, no pre-mine, no VC capital.
 
 ### (5). Emission Model
 
-- Initial block reward: 500 KAS per block.
-
 - Mining rewards **decrease once a month, reducing by approximately half each year.** (Bitcoin reduces every four years and directly halves)
 
 - For details, see: [https://kaspa.org/tokenomics-emission-and-mining/](https://kaspa.org/tokenomics-emission-and-mining/)
+
+- Detailed emission breakdown: [https://kastool.com/](https://kastool.com/)
+
+![](/kas/2026-09-13_tokenomics.png)
+
+
+::: info
+
+- Before 2022-05 was the pre-deflation period, which used a different set of rules: for the first two weeks, block rewards were randomly 1–1000 KAS/block, then a constant 500 KAS/second. The emission during this period is shown in the light-colored bars on the left.
+
+- The consensus subsidy schedule starts from May 5, 2022 (UTC): starting at 440 KAS/second, ×2^(−1/12) each month, halving about every year, ending in 2057-10. The official documentation writes the end date of this period as 2022-05-08; the ~3-day difference is the network-wide outage shortly after launch.
+
+- The actual output during the pre-deflation period may be slightly higher than the model: DAG parallel blocks each received the full 500 KAS. The model's total output of 28.376B differs from the official cap of 28.704B by 327.79M (1.14%).
+
+:::
 
 
 
