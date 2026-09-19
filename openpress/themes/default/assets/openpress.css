@@ -3,13 +3,11 @@
   --op-c-accent-hover: #2b8a7d;
   --op-c-text: #2c3e50;
   --op-c-text-light: #5a6a78;
+  --op-c-text-faint: #7b8a99;
   --op-c-bg: #ffffff;
   --op-c-bg-soft: #f6f7f8;
   --op-c-bg-alt: #f0f2f4;
   --op-c-border: #e2e6ea;
-  --op-c-h2: rgb(225, 78, 78);
-  --op-c-h3: rgb(30, 151, 167);
-  --op-c-h4: rgb(99, 142, 14);
   --op-c-strong: #2b7a70;
   --op-navbar-height: 3.6rem;
   --op-sidebar-width: 17rem;
@@ -30,6 +28,8 @@
 }
 
 html {
+  /* 1rem = 15px: every rem-based size derives from the body text size */
+  font-size: 15px;
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--op-navbar-height) + 0.5rem);
 }
@@ -37,7 +37,7 @@ html {
 body {
   margin: 0;
   font-family: var(--op-font-family);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.75;
   color: var(--op-c-text);
   background: var(--op-c-bg);
@@ -429,13 +429,13 @@ img {
 .op-page {
   flex: 1 1 auto;
   min-width: 0;
-  max-width: 58rem;
+  max-width: 48rem;
   padding: 1.5rem 1.5rem 4rem;
   margin: 0 auto;
 }
 
 .op-page-home {
-  max-width: 58rem;
+  max-width: 48rem;
   padding-top: 2rem;
 }
 
@@ -587,7 +587,7 @@ img {
 /* h4: small faded dot */
 .op-toc-level-4 > a {
   font-size: 0.8rem;
-  color: #7b8a99;
+  color: var(--op-c-text-faint);
 }
 
 .op-toc-level-4 > a::before {
@@ -599,7 +599,7 @@ img {
 /* h5: tiny dash, lightest */
 .op-toc-level-5 > a {
   font-size: 0.76rem;
-  color: #93a1ae;
+  color: var(--op-c-text-faint);
 }
 
 .op-toc-level-5 > a::before {
@@ -647,42 +647,60 @@ img {
 .op-content h4,
 .op-content h5,
 .op-content h6 {
-  line-height: 1.35;
+  line-height: 1.3;
+  font-weight: 700;
+  text-wrap: balance;
 }
 
 .op-content h1 {
-  font-size: 1.9rem;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin: 0 0 1.25rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--op-c-text);
+  letter-spacing: -0.01em;
 }
 
 .op-content h2 {
-  margin-top: 2.2rem;
-  padding-bottom: 7px;
-  font-size: 1.45rem;
-  font-weight: 900;
-  color: var(--op-c-h2);
-  border-bottom: 2px double var(--op-c-h2);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin: 2.6rem 0 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--op-c-accent);
+  border-bottom: 3px solid var(--op-c-accent);
 }
 
 .op-content h3 {
-  margin-top: 1.8rem;
-  padding-bottom: 5px;
-  font-size: 1.2rem;
-  font-weight: 900;
-  color: var(--op-c-h3);
-  border-bottom: 1px solid rgb(15, 159, 147);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin: 1.9rem 0 0.75rem;
+  padding-bottom: 0.35rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--op-c-accent);
+  border-bottom: 1px solid var(--op-c-accent);
 }
 
 .op-content h4 {
-  margin-top: 1.4rem;
-  padding-bottom: 5px;
+  margin: 1.5rem 0 0.6rem;
   font-size: 1.05rem;
-  font-weight: 900;
-  color: var(--op-c-h4);
-  border-bottom: 1px dotted rgb(159, 191, 43);
-  text-shadow: 2px 2px 2px rgba(197, 202, 47, 0.1);
+  font-weight: 600;
+  color: var(--op-c-accent);
+}
+
+.op-content h5 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--op-c-text);
+}
+
+.op-content h6 {
+  margin: 1rem 0 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--op-c-text-light);
+}
+
+.op-content p {
+  text-wrap: pretty;
 }
 
 .op-content strong {
@@ -867,7 +885,8 @@ img {
 
 .op-hero h1 {
   margin: 0 0 0.6rem;
-  font-size: 2.2rem;
+  font-size: 2.25rem;
+  font-weight: 800;
 }
 
 .op-hero-description {
@@ -1089,10 +1108,6 @@ img {
 
   body.op-menu-open {
     overflow: hidden;
-  }
-
-  body {
-    font-size: clamp(1.0625rem, 1rem + 0.5vw, 1.125rem);
   }
 
   .op-page {
