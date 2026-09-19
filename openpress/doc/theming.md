@@ -47,6 +47,7 @@ export default defineTheme({
 | `routeSet` | 所有路由路径的 `Set`，用于判断翻译页是否存在 |
 | `isHome` | 是否首页（`frontmatter.home === true`） |
 | `url(path)` | 应用 `base` 前缀，等价于 `withBase(config, path)` |
+| `asset(path)` | 主题资源 URL，自动附加内容哈希（如 `/assets/theme.css?v=ab12cd34`）用于缓存穿透 |
 | `escapeHtml(value)` | HTML 转义 |
 
 `page` 主要字段：`routePath`、`relativePath`、`localePath`、`frontmatter`、
@@ -63,7 +64,7 @@ const layout = (ctx) => `<!doctype html>
   <head>
     <meta charset="utf-8">
     <title>${ctx.escapeHtml(ctx.page.title || ctx.locale.title)}</title>
-    <link rel="stylesheet" href="${ctx.url('/assets/theme.css')}">
+    <link rel="stylesheet" href="${ctx.asset('/assets/theme.css')}">
   </head>
   <body>
     <nav>

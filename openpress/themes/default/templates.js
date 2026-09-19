@@ -2,7 +2,7 @@ import { withBase } from '../../src/config.js'
 import { escapeHtml, renderHeadTags } from '../../src/utils/html.js'
 import { isActive, translateRoute } from '../../src/utils/routes.js'
 
-function renderHead(config, page, locale, routeSet) {
+function renderHead(config, page, locale, routeSet, asset) {
   const title =
     page.isHome || !page.title ? locale.title : `${page.title} | ${locale.title}`
   const description =
@@ -29,7 +29,7 @@ function renderHead(config, page, locale, routeSet) {
   }
 
   parts.push(...renderHeadTags(config.head))
-  parts.push(`<link rel="stylesheet" href="${withBase(config, '/assets/openpress.css')}">`)
+  parts.push(`<link rel="stylesheet" href="${escapeHtml(asset('/assets/openpress.css'))}">`)
   return parts.filter(Boolean).join('\n    ')
 }
 
@@ -218,8 +218,8 @@ function renderHome(config, page, locale, contentHtml) {
 }
 
 export function renderPage(ctx) {
-  const { config, page, locale, routeSet, contentHtml, headers, sidebar, prev, next, lastUpdated } = ctx
-  const head = renderHead(config, page, locale, routeSet)
+  const { config, page, locale, routeSet, contentHtml, headers, sidebar, prev, next, lastUpdated, asset } = ctx
+  const head = renderHead(config, page, locale, routeSet, asset)
   const hasSidebar = !page.isHome && Array.isArray(sidebar) && sidebar.length > 0
   const navbar = renderNavbar(config, page, locale)
   const mobileMenu = renderMobileMenu(config, page, locale, sidebar)
@@ -254,19 +254,20 @@ export function renderPage(ctx) {
       ${mobileMenu}
       ${body}
     </div>
-    <script src="${withBase(config, '/assets/openpress.js')}" defer></script>
+    <script src="${escapeHtml(asset('/assets/openpress.js'))}" defer></script>
   </body>
 </html>
 `
 }
 
 export function renderNotFound(ctx) {
-  const { config, locale, routeSet } = ctx
+  const { config, locale, routeSet, asset } = ctx
   const head = renderHead(
     config,
     { routePath: '/404.html', title: '404', isHome: false, localePath: '/', frontmatter: {} },
     locale,
     routeSet,
+    asset,
   )
   return `<!doctype html>
 <html lang="${escapeHtml(locale.lang)}">

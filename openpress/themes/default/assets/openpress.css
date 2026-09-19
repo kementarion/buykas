@@ -636,7 +636,9 @@ img {
 
 /* ---------- content ---------- */
 .op-content {
-  overflow-wrap: break-word;
+  /* `anywhere` (not `break-word`) so long URLs/tokens also shrink the
+     intrinsic min-width; otherwise they force the whole page to overflow. */
+  overflow-wrap: anywhere;
 }
 
 .op-content h1,
@@ -712,7 +714,7 @@ img {
 
 .op-content table {
   display: block;
-  width: max-content;
+  width: 100%;
   max-width: 100%;
   overflow-x: auto;
   border-collapse: collapse;
@@ -1005,10 +1007,10 @@ img {
     position: static;
     order: -1;
     flex: 0 0 auto;
-    width: auto;
+    width: min(38rem, 100% - 2 * clamp(1.25rem, 6vw, 2.5rem));
     max-height: none;
     overflow: visible;
-    margin: 0.85rem 1.1rem 0.25rem;
+    margin: 0.85rem auto 0.25rem;
     padding: 0.35rem 0.6rem;
     border: 1px solid var(--op-c-border);
     border-radius: 8px;
@@ -1089,24 +1091,35 @@ img {
     overflow: hidden;
   }
 
+  body {
+    font-size: clamp(1.0625rem, 1rem + 0.5vw, 1.125rem);
+  }
+
   .op-page {
-    padding: 1rem 1.1rem 3rem;
+    max-width: 38rem;
+    margin-inline: auto;
+    padding: 1.1rem clamp(1.25rem, 6vw, 2.5rem) 3rem;
   }
 
   .op-page-home {
     padding-top: calc(var(--op-navbar-height) + 1rem);
   }
 
+  .op-content {
+    line-height: 1.85;
+    text-wrap: pretty;
+  }
+
   .op-content h1 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   .op-content h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   .op-content h3 {
-    font-size: 1.12rem;
+    font-size: 1.18rem;
   }
 }
 

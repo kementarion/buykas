@@ -1,5 +1,6 @@
 import { execFileSync } from 'node:child_process'
-import { cpSync, existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { withBase } from './config.js'
 import { writeFeed } from './feed.js'
@@ -31,18 +32,25 @@ function createGitLastUpdated(config) {
   }
 }
 
+/**
+ * Copy the theme's assets into the output and return a `{ '/path': hash }` map
+ * so templates can bust caches with `?v=<hash>`.
+ */
 function copyThemeAssets(config, theme) {
-  if (!theme.dir || !theme.assets?.length) return
+  const hashes = {}
+  if (!theme.dir || !theme.assets?.length) return hashes
   for (const asset of theme.assets) {
     const from = join(theme.dir, asset)
     if (!existsSync(from)) continue
     const to = join(config.destDir, asset)
     mkdirSync(dirname(to), { recursive: true })
     cpSync(from, to)
+    hashes[`/${asset}`] = createHash('sha256').update(readFileSync(from)).digest('hex').slice(0, 8)
   }
+  return hashes
 }
 
-function createContext({ config, theme, page, locale, routeSet, contentHtml, headers, sidebar, prev, next, lastUpdated }) {
+function createContext({ config, theme, page, locale, routeSet, contentHtml, headers, sidebar, prev, next, lastUpdated, assetHashes = {} }) {
   return {
     config,
     theme,
@@ -57,6 +65,11 @@ function createContext({ config, theme, page, locale, routeSet, contentHtml, hea
     lastUpdated,
     isHome: page.isHome,
     url: (path) => withBase(config, path),
+    asset: (path) => {
+      const url = withBase(config, path)
+      const hash = assetHashes[path]
+      return hash ? `${url}?v=${hash}` : url
+    },
     escapeHtml,
   }
 }
@@ -78,7 +91,7 @@ export async function build(config) {
   if (existsSync(config.publicDir)) {
     cpSync(config.publicDir, config.destDir, { recursive: true })
   }
-  copyThemeAssets(config, theme)
+  const assetHashes = copyThemeAssets(config, theme)
 
   for (const page of pages) {
     if (config.hooks.extendPage) {
@@ -104,6 +117,7 @@ export async function build(config) {
       prev: nav.prev,
       next: nav.next,
       lastUpdated,
+      assetHashes,
     })
 
     const layout = resolveLayout(theme, page)
@@ -132,6 +146,7 @@ export async function build(config) {
       prev: null,
       next: null,
       lastUpdated: '',
+      assetHashes,
     })
     writeFileSync(join(config.destDir, '404.html'), await theme.layouts.notFound(notFoundCtx))
   }

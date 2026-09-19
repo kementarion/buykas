@@ -77,6 +77,9 @@
 
 改完后 `npm run docs:dev` 会自动热重载。自定义主题见 [theming.md](theming.md)。
 
+> 主题资源（CSS/JS）在构建时会自动追加内容哈希（`?v=xxxxxxxx`），内容一变 URL 就变，
+> 因此修改样式后无需手动清浏览器或 CDN 缓存。
+
 ## 扩展 Markdown
 
 两种方式：

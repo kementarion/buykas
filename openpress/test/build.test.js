@@ -49,6 +49,8 @@ test('builds a site end to end', async () => {
     assert.match(start, /<h1 id="start">Start<\/h1>/)
     assert.match(start, /href="\/"/)
     assert.match(start, /op-sidebar-link/)
+    assert.match(start, /openpress\.css\?v=[0-9a-f]{8}/)
+    assert.match(start, /openpress\.js\?v=[0-9a-f]{8}/)
 
     const home = readFileSync(join(dir, 'dist', 'index.html'), 'utf8')
     assert.match(home, /id="main-title">Hi</)
