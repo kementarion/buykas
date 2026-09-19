@@ -9,3 +9,6 @@
 
 - [4. XXIM Interviews Kaspa Core Developer Ori Newman, Telling Early Kaspa Stories (2025-10-24)](./4.OriNewmanInterviewByXXIM.md)
 
+
+- [5. The Kaspa Emission Curve: Debates and Research](./5.KaspaEmission.md)
+

@@ -18,8 +18,6 @@ Registered buykas.com because it looked nice at the time — it has nothing to d
 
 My Twitter: [https://x.com/mvkscin](https://x.com/mvkscin)
 
-My Tools: [https://kastool.com/](https://kastool.com/)
-
 Documentation and source code for this site: [https://github.com/kementarion/buykas](https://github.com/kementarion/buykas)
 
 
