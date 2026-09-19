@@ -3,7 +3,7 @@
 图片压缩脚本（视觉无损）
 只压缩存储大小，不改变图片尺寸，并尽量保证肉眼看不出差别。
 
-默认目标目录: docs/.vuepress/public/kas
+默认目标目录: docs/public/kas
 
 用法:
     python image_compressor.py                       # 压缩默认目录
@@ -24,7 +24,7 @@ from typing import List, Tuple
 from PIL import Image, ImageChops, PngImagePlugin
 
 
-DEFAULT_DIR = Path(__file__).resolve().parent / "docs" / ".vuepress" / "public" / "kas"
+DEFAULT_DIR = Path(__file__).resolve().parent / "docs" / "public" / "kas"
 MARKER_KEY = "buykas-compressed"
 MARKER_VALUE = "1"
 
@@ -370,7 +370,7 @@ class SimpleImageCompressor:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="图片压缩脚本（视觉无损，默认目标 docs/.vuepress/public/kas）"
+        description="图片压缩脚本（视觉无损，默认目标 docs/public/kas）"
     )
     parser.add_argument('directory', nargs='?', default=str(DEFAULT_DIR),
                         help=f"要压缩的目录 (默认: {DEFAULT_DIR})")

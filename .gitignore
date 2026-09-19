@@ -1,20 +1,22 @@
-
 node_modules
-
 
 __pycache__
 *.pyc
 *.spec
 
-
-docs/.vuepress/.cache
-docs/.vuepress/.temp
-
-docs/.vuepress/dist
-
+dist/
 dist.tar.gz
 
 build*.sh
+deploy.sh
 
 .clinerules
+
+AGENTS.md
+
+
+
+
+
+
 
