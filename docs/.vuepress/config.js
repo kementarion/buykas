@@ -124,6 +124,7 @@ export default defineUserConfig({
                 '2.OldTrxHistory.md',
                 '3.TrxInBlock.md',
                 '4.OriNewmanInterviewByXXIM.md',
+                '5.KaspaEmission.md',
               ]
             }
           ],

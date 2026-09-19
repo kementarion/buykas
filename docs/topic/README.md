@@ -13,4 +13,10 @@
 - [4. XXIM 采访 Kaspa 核心开发 Ori Newman, 讲述 Kaspa 初期的故事 (2025-10-24)](./4.OriNewmanInterviewByXXIM.md)
 
 
+- [5. Kaspa 排放曲线的争议与研究](./5.KaspaEmission.md)
+
+
+
+
+
 
