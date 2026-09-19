@@ -52,6 +52,19 @@
 3. **未实现**：代码高亮、Markdown Tabs、站内搜索、评论。当前内容均未使用；
    需要时可作为独立模块增量添加。
 
+## 移动端与布局
+
+- 站点已声明 `<meta name="viewport" content="width=device-width,initial-scale=1">`。
+  若手机浏览器仍显示桌面版，是浏览器的「桌面版网站」设置在覆盖 viewport，
+  站点无法强制切回（用 JS 读 `screen.width` 也没用，浏览器已按桌面宽度缩放渲染）。
+- **避免横向溢出**：长 URL 不要靠 `overflow-wrap: break-word`——它只让文本换行显示，
+  **不改变元素的固有最小宽度**，会撑大布局视口导致整页左右滚动。应使用
+  `overflow-wrap: anywhere`。
+- 表格同理：用 `width: 100%`，不要用 `width: max-content`——后者会把「不换行时的完整
+  宽度」反馈给父级的最小宽度，同样撑宽整页。
+- 改动移动端样式后，务必在窄视口下确认 `document.documentElement.scrollWidth`
+  等于视口宽度（不应出现横向滚动条）。
+
 ## 容器语法的小要求
 
 `:::` 容器与上一段/表格之间**建议留空行**。openpress 已内置自动补空行
@@ -104,8 +117,6 @@ npm test
 npm run docs:build
 ```
 
-产物在 `dist/`（已被 `.gitignore` 忽略）。`build_and_deploy.sh` 会打包
-`dist/` 并上传到服务器。
 
 ## 性能
 

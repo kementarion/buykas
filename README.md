@@ -12,9 +12,6 @@ npm run docs:build   # 生成 dist/
 npm test             # 运行 openpress 测试
 ```
 
-## 部署
-
-- 部署在：[https://buykas.com/](https://buykas.com/)
 
 ## 目录
 
