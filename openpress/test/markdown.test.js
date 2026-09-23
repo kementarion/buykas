@@ -56,6 +56,28 @@ test('keeps external links untouched and opens them in a new tab', () => {
   assert.match(html, /target="_blank"/)
 })
 
+test('renders emphasis whose closing delimiters are followed by text', () => {
+  // Chinese has no spaces, so a closing run often sits between punctuation and the
+  // next sentence. CommonMark accepts that; marked's own rules do not.
+  assert.match(render('句子：**加粗。**后面紧跟中文').html, /<strong>加粗。<\/strong>后面紧跟中文/)
+  assert.match(render('句子：*斜体。*后面紧跟中文').html, /<em>斜体。<\/em>后面紧跟中文/)
+  assert.match(render('句子：__加粗。__后面紧跟中文').html, /<strong>加粗。<\/strong>后面紧跟中文/)
+  assert.match(render('句子：_斜体。_后面紧跟中文').html, /<em>斜体。<\/em>后面紧跟中文/)
+  assert.match(render('**a.**b').html, /<strong>a\.<\/strong>b/)
+  assert.match(
+    render('**甲。**后**乙。**后').html,
+    /<strong>甲。<\/strong>后<strong>乙。<\/strong>后/,
+  )
+})
+
+test('keeps marked’s own emphasis behaviour intact', () => {
+  assert.match(render('**粗体**后').html, /<strong>粗体<\/strong>后/)
+  assert.match(render('**粗体。** 空格').html, /<strong>粗体。<\/strong> 空格/)
+  assert.match(render('**粗体。**').html, /<strong>粗体。<\/strong>/)
+  assert.match(render('**a**b').html, /<strong>a<\/strong>b/)
+  assert.equal(render('**未闭合').html.trim(), '<p>**未闭合</p>')
+})
+
 test('transforms Vue $withBase syntax into plain HTML', () => {
   const { html } = render('<img :src="$withBase(\'/kas/a.png\')" />')
   assert.match(html, /<img src="\/kas\/a\.png" \/>/)

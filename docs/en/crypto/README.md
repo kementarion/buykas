@@ -9,9 +9,11 @@
 
 - [What is a Node, and What is the Relationship with Miners?](./Node-And-Miner.md)
 
-- [Bitcoin Introduction](./BTC.md)
+- [The Story of Bitcoin](./BTC.md)
 
-- [Ethereum Introduction](./ETH.md)
+- [The Story of Ethereum](./ETH.md)
+
+- [What Is a UTXO: Starting From a Piece of Broken Silver](./UTXO.md)
 
 
 

@@ -54,6 +54,7 @@ openpress/
 │   ├── markdown/           marked wrapper + extensions
 │   │   ├── index.js        render entry, link rewriting
 │   │   ├── container.js    ::: tip / info / warning / danger
+│   │   ├── emphasis.js     emphasis closed by punctuation + CJK text
 │   │   ├── anchor.js       heading ids (VuePress-compatible slugify)
 │   │   └── vue-syntax.js   $withBase() / :src → plain HTML
 │   └── utils/              html + route helpers

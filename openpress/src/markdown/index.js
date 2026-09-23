@@ -4,6 +4,7 @@ import { withBase } from '../config.js'
 import { escapeAttr } from '../utils/html.js'
 import { extractText, slugify } from './anchor.js'
 import { containerExtension, getContainerTitles, normalizeContainers } from './container.js'
+import { emphasisAdjacentExtension } from './emphasis.js'
 import { transformVueSyntax } from './vue-syntax.js'
 
 function uniqueSlug(slug, used) {
@@ -61,7 +62,7 @@ export function createMarkdown(config = {}) {
   let currentPage = { routePath: '/' }
   const containerState = { titles: {} }
 
-  marked.use({ extensions: [containerExtension(containerState)] })
+  marked.use({ extensions: [containerExtension(containerState), emphasisAdjacentExtension()] })
   marked.use({
     renderer: {
       heading(token) {
